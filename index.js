@@ -6,7 +6,7 @@
  */
 import { NativeModules, Platform } from "react-native";
 
-export class XPay {
+export default class XPay {
   /**
    * 支付宝Android端支付
    * @param orderInfo   订单号
